@@ -65,3 +65,29 @@ a:hover {
     color: #0056b3; /* A darker blue when you hover over a link */
     text-decoration: underline;
 }
+
+/* --- Media Query for Responsive Design --- */
+/* This block of CSS will only apply on screens 768px wide or smaller (like tablets and phones) */
+
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block; /* Stack the nav links vertically */
+        margin: 10px 0; /* Add some space between them */
+    }
+
+    main {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Make the main title a bit smaller */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Make section titles a bit smaller */
+    }
+}
