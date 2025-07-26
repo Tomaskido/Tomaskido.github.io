@@ -1,0 +1,67 @@
+/* --- Global Styles --- */
+/* The 'body' selector styles the main canvas of your page */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* The 'main' selector targets the main content container */
+main {
+    max-width: 900px; /* Prevents the site from becoming too wide on large screens */
+    margin: 0 auto; /* A trick to center the container */
+    padding: 20px;
+}
+
+/* --- Header & Navigation Styles --- */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none; /* Removes the bullet points */
+}
+
+nav ul li {
+    display: inline; /* Makes the list items appear side-by-side */
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none; /* Removes the underline from links */
+}
+
+/* --- Section Styles --- */
+section {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd; /* Adds a line between sections */
+}
+
+/* --- Footer Styles --- */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: #777;
+}
+
+/* --- Link Styles --- */
+a {
+    color: #007BFF; /* A nice blue color for links */
+}
+
+a:hover {
+    color: #0056b3; /* A darker blue when you hover over a link */
+    text-decoration: underline;
+}
